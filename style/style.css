@@ -1,0 +1,288 @@
+body {
+  color: darkgrey;
+  font-family: sans-serif;
+  font-size: larger;
+  font-style: normal;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+}
+
+header nav ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+
+  a {
+    text-decoration: none;
+    color: darkcyan;
+  }
+}
+
+.img {
+  text-align: center;
+}
+/* .ent{
+    color: darkgrey;
+    text-align: center;
+    font-size: medium;
+}
+.flex-box p {
+    flex-direction: column;
+} */
+.bloc1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  h1 {
+    color: #15b9a3;
+  }
+  h2 {
+    color: #15b9a3;
+  }
+}
+
+.dex {
+  display: flex;
+  width: 70%;
+  margin: 0 auto;
+
+  .bloc2 {
+    p {
+      align-items: start;
+      color: #867474;
+    }
+  }
+
+  .bloc3 {
+    p {
+      color: #867474;
+      align-items: start;
+    }
+  }
+}
+
+.flex-box {
+  display: flex;
+}
+
+.box {
+  width: 400px;
+  height: 300px;
+  font-size: 30px;
+  margin: 20px;
+  border-radius: 13px;
+  color: white;
+  grid-template-columns: auto;
+  display: flexbox;
+  flex-wrap: wrap;
+}
+
+.box1 {
+  background: #00ccb1;
+  display: flexbox;
+  color: white;
+  font-size: larger;
+}
+
+.box2 {
+  background: #3d83df;
+  display: flexbox;
+  font-size: larger;
+  select {
+    right: auto;
+  }
+}
+.box3 {
+  background-color: #1b2734;
+  display: flexbox;
+  font-size: larger;
+}
+
+.vif {
+  color: white;
+  display: flexbox;
+}
+
+#yo {
+  color: white;
+  align-items: start;
+}
+
+.h1 {
+  color: white;
+}
+
+/* #if {
+    color: white;
+    font-weight: lighter;
+} */
+
+h1 {
+  font-size: medium;
+}
+.style-select select {
+  background-color: transparent;
+  border: none;
+  text-decoration: underline;
+  color: white;
+  font-size: medium;
+}
+h3 {
+  color: #00b39b;
+  display: flex;
+}
+
+.image {
+  color: #00b39b;
+}
+.on {
+  display: flex;
+  .image {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: space-between;
+  }
+}
+
+  .two {
+
+    background-color: white;
+    width: 75%;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 6px;
+    margin-bottom: 20px;
+
+    p{
+      text-align: center;
+    }
+  }
+.rx{
+  display: flex;
+  background: #dcf7f6;
+  padding: 50px;
+  gap: 20px;
+}
+
+.for {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+
+  .or {
+    h1 {
+      text-align: center;
+      color: #867474;
+    }
+  }
+  .inp {
+    p {
+      text-align: center;
+      color: #867474;
+      flex-wrap: wrap;
+    }
+  }
+
+}
+/* .ville {
+  width: 24%;
+  height: 300px;
+  background-color: #dbf7f6;
+  border-radius: 10px;
+}
+.cow {
+  border-radius: 10px;
+  border-radius: 10px;
+}
+.munich {
+  width: 24%;
+  height: 300px;
+  background-color: #dbf7f6;
+  border-radius: 10px;
+}
+.istanbul {
+  border-radius: 10px;
+  width: 24%;
+  height: 300px;
+  background-color: #dbf7f6;
+}
+.rome {
+  width: 2%;
+  height: 300px;
+  background-color: #dbf7f6;
+  border-radius: 10px;
+}
+
+.bologna {
+  width: 24%;
+  height: 300px;
+  background-color: #dbf7f6;
+  border-radius: 10px;
+}
+.curt {
+  width: 24%;
+  height: 300px;
+  background-color: #dbf7f6;
+  border-radius: 10px;
+}
+
+.rio {
+  width: 24%;
+  height: 300px;
+  background-color: #dbf7f6;
+  border-radius: 10px;
+}
+
+.mexico {
+  width: 24%;
+  height: 300px;
+  background-color: #dbf7f6;
+  border-radius: 10px;
+}
+.bogota {
+  width: 24%;
+  height: 300px;
+  background-color: #dbf7f6;
+  border-radius: 10px;
+}
+
+.amsterdam {
+  width: 24%;
+  height: 300px;
+  background-color: #dbf7f6;
+  border-radius: 10px;
+} */
+.men {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  place-items: center;
+}
+.binta{
+    display: flex;
+    justify-content: space-between;
+}
+
+.vie{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.foot{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.flag{
+  display: flex;
+  gap: 20px;
+  .flag-1{
+    margin-bottom: 20px;
+  }
+}
